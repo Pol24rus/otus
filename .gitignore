@@ -1,9 +1,12 @@
-__pycache__/
+# Byte-compiled / optimized / DLL files
+__pycache__
 
-.venv/
-.venv/bak/
+# Environments
+venv/
+venv.bak/
 
+# IDE
 .idea/
 
+# Tests
 .pytest_cache/
-
