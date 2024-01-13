@@ -5,11 +5,11 @@ from datetime import datetime
 
 example = [[1, 2, 3, 4, 5], ["some", "something"]]
 
-print(list(itertools.chain(*example)))
+#print(list(itertools.chain(*example)))
 
-print(list(itertools.repeat('abc', 5)))
+#print(list(itertools.repeat('sex', 5)))
 
-print(list(itertools.combinations([1, 2, 3, 4], 2)))
+#print(list(itertools.combinations([1, 2, 3, 4], 2)))
 print(list(itertools.permutations([1, 2, 3, 4], 2)))
 
 

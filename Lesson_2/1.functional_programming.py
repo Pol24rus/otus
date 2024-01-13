@@ -7,7 +7,10 @@ def calc_sum(a: int, b: int) -> int:
 
 
 def main():
-    print(square(calc_sum(2, 3)))
+    a = calc_sum(2, 3)
+    b = square(a)
+    print(b)
+     # (square(calc_sum(2, 3))))
 
 
 if __name__ == "__main__":
