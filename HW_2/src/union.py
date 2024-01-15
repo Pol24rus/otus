@@ -1,23 +1,6 @@
-from abc import ABC, abstractmethod
-
-
-class Figure(ABC):
-
-    def __init__(self, name: str):
-        self.name = name
-
-    @abstractmethod
-    def get_area(self):
-        pass
-
-    @abstractmethod
-    def get_perimetr(self):
-        pass
-
-    # def add_area(self, other_figure):
-    #     if not isinstance(other_figure, Figure):
-    #         raise ValueError("Нужно передать фигуру")
-    #     return self.get_area() + other_figure.get_area()
+#from abc import ABC, abstractmethod
+from HW_2.src.Figure import Figure
+import math
 
 
 class Rectangle(Figure):
@@ -63,9 +46,31 @@ class Triangle(Figure):
 #        p = (side_a + side_b + side_c) / 2
 
 
+class Sircle(Figure):
+
+    def __init__(self, side_a):
+        super().__init__(name="Sircle")
+        if side_a <= 0:
+            raise ValueError("Диаметр круга должен быть больше нуля")
+        self.side_a = side_a
+
+
+    def get_area(self):
+
+        return ((self.side_a / 2) * math.pi) ** 2
+    print("Pi = ", math.pi)
+
+
+    def get_perimetr(self):
+        return self.side_a * math.pi
+
+#        p = (side_a + side_b + side_c) / 2
+
+
 s = Square(6)
 r = Rectangle(3, 4)
 t = Triangle(3, 4, 5)
+scl = Sircle(5)
 # print(r.add_area(other_figure=s))
 print("площадь прямоугольника = ", r.get_area())
 print("периметр прямоугольника = ", r.get_perimetr())
@@ -73,4 +78,5 @@ print("Площадь квадрата=", s.get_area())
 print("Периметр квадрата=", s.get_perimetr())
 print("Площадь треугольника=", t.get_area())
 print("Периметр теруголиника=", t.get_perimetr())
-#
+print("Площадь круга = ", scl.get_area())
+print("Длина круга = ", scl.get_perimetr())
