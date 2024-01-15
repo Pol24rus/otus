@@ -19,5 +19,3 @@ class Sircle(Figure):
 
 
 scl = Sircle(5)
-print("Площадь круга = ", scl.get_area())
-print("Длина круга = ", scl.get_perimetr())

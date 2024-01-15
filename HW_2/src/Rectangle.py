@@ -18,5 +18,3 @@ class Rectangle(Figure):
 
 
 r = Rectangle(3, 4)
-print("площадь прямоугольника = ", r.get_area())
-print("периметр прямоугольника = ", r.get_perimetr())

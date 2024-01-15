@@ -19,5 +19,3 @@ class Triangle(Figure):
 
 
 t = Triangle(3, 4, 5, 0.3)
-print("Площадь треугольника=", t.get_area())
-print("Периметр теруголиника=", t.get_perimetr())

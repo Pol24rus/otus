@@ -10,5 +10,3 @@ class Square(Rectangle):
 
 
 s = Square(6)
-print("Площадь квадрата=", s.get_area())
-print("Периметр квадрата=", s.get_perimetr())
