@@ -1,5 +1,5 @@
 #from abc import ABC, abstractmethod
-from HW_2.src.Figure import Figure
+from src.Figure import Figure
 import math
 
 
