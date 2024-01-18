@@ -8,8 +8,8 @@ def get_rectangle(request):
     print("\n Stop DB")
 
 
-# @pytest.fixture()
-# def start_api(start_db):
-#     print("\n Start api")
-#     yield
-#     print("\n Stop api")
+@pytest.fixture()
+def start_api(start_db):
+    print("\n Start api")
+    yield
+    print("\n Stop api")

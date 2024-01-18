@@ -1,4 +1,4 @@
-from src.Rectangle import Rectangle, Square
+from src.Rectangle import Rectangle
 import pytest
 # from datetime import datetime
 
