@@ -14,7 +14,7 @@ def test_positive_int(side_a, side_b, area):
 
 
 @pytest.mark.skipif(condition=datetime.now().month == 1, reason="Bug")
-@pytest.mark.smoke
+#@pytest.mark.smoke
 def test_positive_float():
     r = Rectangle(3.5, 4.5)
     assert r.get_area() == 15.75
