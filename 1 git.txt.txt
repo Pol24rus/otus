@@ -1,0 +1,8 @@
+git init - создание локального репозитория.
+git status
+git add . - добавление всех файлов, потом сделать комит с именем
+git commit -m "имя, описание комита"
+git push origin main (master)
+git checkout "ветка" - переход на ветку
+git checkout -b "ветка" создать и перейти на ветку.
+git branch - список веток
