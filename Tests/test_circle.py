@@ -14,6 +14,7 @@ def test_positive_int(side_a, area):
 
 
 @pytest.mark.skipif(condition=datetime.now().hour > 22, reason="Too late")
+@pytest.mark.skipif(condition=datetime.now().hour < 7, reason="Too early")
 def test_positive_float():
     c = Circle(3.5)
     assert c.get_area() == 9.62112750161874

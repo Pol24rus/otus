@@ -7,6 +7,7 @@ venv.bak/
 
 # job
 back/
+back.bak/
 
 # IDE
 .idea/
