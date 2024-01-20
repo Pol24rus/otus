@@ -21,6 +21,8 @@ print("\n", 20 * "=", "\n")
 file = open(TXT_FILE, 'r')
 try:
     print(file.read())
+# except Exception as e:
+#     ...
 finally:
     file.close()
 

@@ -11,8 +11,8 @@ with open(CSV_FILE, newline='') as f:
 
     # Итерируемся по данным делая из них словари
     for row in reader:
-        print(row)
-       # print(dict(zip(header, row)))
+       # print(row)
+       print(dict(zip(header, row)))
 
 print(100 * "+")
 

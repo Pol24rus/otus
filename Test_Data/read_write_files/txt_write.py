@@ -8,9 +8,9 @@ text = """когда илье звонит начальник
 и в это время он бунтарь
 """
 
-some_file.write(text)
+# some_file.write(text)
 
 # write list
-# some_file.writelines(['строка1', 'строка2', 'строка3']) # \n
+some_file.writelines(['строка1\n', 'строка2\n', 'строка3\n']) # \n
 
 some_file.close()
