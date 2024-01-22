@@ -3,17 +3,15 @@ import csv
 from files_hw import JSON_FILE, JSON_FILE_W
 from files_hw import CSV_FILE
 
+result = []
+
 with open(JSON_FILE, "r") as f:
-    # users = json.loads(f.read())
     users = json.load(f)
-    #    print(users[1])  # возвращает полностью данные по человеку
-    # выбираю нужные данные из индекса
+    user_number = 0
     for i in users:
-        data_user = i['name'], i['gender'], i['address'], i["age"]
-#        print("выбранные данные", data_user)
-        data_user_2 = (json.dumps(data_user, indent=4))
-        print("выбранные данные - 2 ", data_user_2)
-        print('/' * 20)
+        result.append({"name": i['name'], "gender": i['gender'], "address": i['address'],
+                       "age": i['age'], "Book": []})
+        user_number += 1
 
 with open(CSV_FILE, newline='') as f:
     reader = csv.reader(f)
@@ -28,3 +26,14 @@ with open(CSV_FILE, newline='') as f:
         csv_dict = dict(zip(header, row)) # делает словарь с ключом
         print('csv_dict ',csv_dict)
 #        print(dict(zip(header, row)))
+with open(JSON_FILE_W, "w") as f:
+    s = json.dumps(csv_dict, indent=4)
+    f.write(s)
+users_book = csv_dict//user_number
+
+
+# with open(JSON_FILE_W, "w") as f:
+#     s = json.dumps(result, indent=4)
+#     print("выбранные данные 3", s)
+#     print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\')
+#     f.write(s)
