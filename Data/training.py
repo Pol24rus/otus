@@ -1,6 +1,8 @@
 import json
 import csv
-from files_hw import JSON_FILE, JSON_FILE_W, CSV_FILE
+from copy import deepcopy
+
+from files_hw import JSON_FILE, JSON_FILE_W2, CSV_FILE
 
 result = []
 
@@ -26,6 +28,14 @@ with open(CSV_FILE, newline='') as f2:
         array_dict.append(csv_dict)  # словарь книг
 
 
-with open(JSON_FILE_W, "w") as f3:
-    s = json.dumps(array_dict, indent=4)
-    f3.write(s)
+result_2 = []
+for i in result:
+    result_2 = deepcopy(result)
+    result_2.append(["Book"] = array_dict)
+    result_2 += 1
+
+# with open(JSON_FILE_W, "w") as f:
+#     s = json.dumps(result, indent=4)
+#     print("выбранные данные 3", s)
+#     print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\')
+#     f.write(s)
