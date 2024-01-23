@@ -27,6 +27,8 @@ with open(CSV_FILE, newline='') as f:
         array_dict.append(csv_dict) # словарь книг
         print("full dictionary", array_dict)
 
+
+
 with open(JSON_FILE_W, "w") as f:
     s = json.dumps(array_dict, indent=4)
     f.write(s)
