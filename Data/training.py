@@ -28,11 +28,33 @@ with open(CSV_FILE, newline='') as f2:
         array_dict.append(csv_dict)  # словарь книг
 
 
-result_2 = []
-for i in result:
-    result_2 = deepcopy(result)
-    result_2.append(["Book"] = array_dict)
-    result_2 += 1
+# result_2 = []
+# for i in result:
+# #    result_2 = deepcopy(result)
+#     result_2.append["Book"] = array_dict
+#     result_2 += 1
+class Iteration:
+
+def __init__(self, result_2):
+    self.result_2 = result_2
+
+
+
+def __iter__(self):
+    self.result_1 = 0
+    return self
+
+
+def __next__(self):
+    if self.result_1 > len(self.result_2):
+        raise StopIteration
+    else:
+        result_3 = self.result_1
+        self.result_1 += 1
+        return result_3
+
+user_num = Iteration(result_3)
+my_iter = iter(user_num)
 
 # with open(JSON_FILE_W, "w") as f:
 #     s = json.dumps(result, indent=4)
