@@ -12,4 +12,4 @@ JSON_FILE = get_path('users.json')
 
 CSV_FILE_W = get_path('books_w.csv')
 JSON_FILE_W = get_path('users_w.json')
-# YAML_FILE_W = get_path('config_w.yaml')
+CSV_TO_JSON_FILE_W = get_path('book_json.json')
