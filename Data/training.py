@@ -1,6 +1,5 @@
 import json
 import csv
-from copy import deepcopy
 
 from files_hw import JSON_FILE, JSON_FILE_W2, CSV_FILE
 
@@ -13,7 +12,6 @@ with open(JSON_FILE, "r") as f:
         result.append({"name": i['name'], "gender": i['gender'], "address": i['address'],
                        "age": i['age'], "Book": []})
         user_number += 1
-
 
 with open(CSV_FILE, newline='') as f2:
     reader = csv.reader(f2)
@@ -28,28 +26,20 @@ with open(CSV_FILE, newline='') as f2:
         #        print('csv_dict ',csv_dict)
         array_dict.append(csv_dict)  # словарь книг
 
-# # объединил два списка
-# combined_list = [i for i["Book"] in result + array_dict]
-# print(combined_list)
+for users in result:
+    print(users)
 
-# # объединил два списка
-# result.append([array_dict])
+for book in array_dict:
+    print(array_dict[:4])
+    current_user_index =  # тут нужно придумать формулу - мб закинуть в строку 30
+    result[current_user_index]['Book'].append(book)
 
 
-#   make file
 with open(JSON_FILE_W2, "w") as f:
     s = json.dumps(result, indent=4)
-    print("выбранные данные 3", s)
-    print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\')
+    # print("выбранные данные 3", s)
+    # print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\')
     f.write(s)
-
-# deepcopy
-# result_2 = []
-# for i in result:
-# #    result_2 = deepcopy(result)
-#     result_2.append["Book"] = array_dict
-#     result_2 += 1
-
 
 # iteration
 # class Iteration(itog):
@@ -96,3 +86,16 @@ with open(JSON_FILE_W2, "w") as f:
 
 # user_num = Iteration(result_3)
 # my_iter = iter(user_num)
+# # объединил два списка
+# combined_list = [i for i["Book"] in result + array_dict]
+# print(combined_list)
+
+# # объединил два списка
+# result.append([array_dict])
+
+# deepcopy
+# result_2 = []
+# for i in result:
+# #    result_2 = deepcopy(result)
+#     result_2.append["Book"] = array_dict
+#     result_2 += 1

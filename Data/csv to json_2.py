@@ -1,17 +1,16 @@
-import pandas as pd
-from files_hw import CSV_FILE
+import csv
 import json
+from csv import DictReader
+from files_hw import CSV_FILE, CSV_TO_JSON_FILE_W
 
-# Step 1: Prepare the CSV File
-#csv_file_path = 'path/to/csv/file.csv'
+with open(CSV_FILE, newline='') as f:
+    reader = DictReader(f)
+    array_dict = []
 
-# Step 2: Read the CSV File
-df = pd.read_csv(CSV_FILE)
+    # Итерируемся по данным делая из них словари
+    for row in reader:
+        array_dict.append(row)  # словарь книг
 
-# Step 3: Convert the CSV to JSON
-json_string = df.to_json(orient='values')
-
-# Step 4: Save the JSON File
-json_file_path = 'output2.json'
-with open(json_file_path, 'w') as json_file:
-    json_file.write(json.dumps(json_string))
+with open(CSV_TO_JSON_FILE_W, "w") as f:
+    s = json.dumps(array_dict, indent=4)
+    f.write(s)
