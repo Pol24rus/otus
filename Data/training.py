@@ -14,6 +14,7 @@ with open(JSON_FILE, "r") as f:
                        "age": i['age'], "Book": []})
         user_number += 1
 
+
 with open(CSV_FILE, newline='') as f2:
     reader = csv.reader(f2)
     array_dict = []
@@ -27,40 +28,71 @@ with open(CSV_FILE, newline='') as f2:
         #        print('csv_dict ',csv_dict)
         array_dict.append(csv_dict)  # словарь книг
 
+# # объединил два списка
+# combined_list = [i for i["Book"] in result + array_dict]
+# print(combined_list)
 
+# # объединил два списка
+# result.append([array_dict])
+
+
+#   make file
+with open(JSON_FILE_W2, "w") as f:
+    s = json.dumps(result, indent=4)
+    print("выбранные данные 3", s)
+    print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\')
+    f.write(s)
+
+# deepcopy
 # result_2 = []
 # for i in result:
 # #    result_2 = deepcopy(result)
 #     result_2.append["Book"] = array_dict
 #     result_2 += 1
-class Iteration:
-
-    def __init__(self, result_2):
-        self.result_2 = result_2
 
 
-    def __iter__(self):
-        self.result_1 = 0
-        return self
+# iteration
+# class Iteration(itog):
+#     itog = Iteration(csv_dict)
+#     itr = itog.iterator()
+#
+#     while True:
+#         try:
+#             itr.next()
+#         except StopIteration:
+#             break
+#         print(itr.current())
+#
+#     itr.first()
+#
+#     while True:
+#         try:
+#             itr.next()
+#         except StopIteration:
+#             break
+#         print(itr.current())
 
-
-    def __next__(self):
-        if self.result_1 > len(self.result_2):
-            raise StopIteration
-        else:
-            result_3 = self.result_1
-            self.result_1 += 1
-            return result_3
-
-print('resultat')
-for i in Iteration(array_dict):
-    print(i)
+# iteration
+#     def __init__(self, result_2):
+#         self.result_2 = result_2
+#
+#
+#     def __iter__(self):
+#         self.result_1 = 0
+#         return self
+#
+#
+#     def __next__(self):
+#         if self.result_1 > self.result_2:
+#             raise StopIteration
+#         else:
+#             result_3 = self.result_1
+#             self.result_1 += 1
+#             return result_3
+#
+# print('resultat')
+# for i in range(self(result)):
+#     print(i)
 
 # user_num = Iteration(result_3)
 # my_iter = iter(user_num)
-
-# with open(JSON_FILE_W, "w") as f:
-#     s = json.dumps(result, indent=4)
-#     print("выбранные данные 3", s)
-#     print('\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\')
-#     f.write(s)

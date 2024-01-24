@@ -11,14 +11,14 @@ with open(JSON_FILE, "r") as f:
     user_number = 0
     for i in users:
         # data_user = i['name'], i['gender'], i['address'], i["age"]
-#        print("выбранные данные", data_user)
-        result.append({"name": i['name'], "gender": i['gender'], "address": i['address'], "age": i['age']})
+        #        print("выбранные данные", data_user)
+        result.append({"name": i['name'], "gender": i['gender'],
+                       "address": i['address'], "age": i['age'], "Book": []})
         user_number += 1
         # print("выбранные данные 2 ", data_user_2)+
-#        print('/' * 20)
+        #        print('/' * 20)
         print("сортированные данные", result)
         print('*************************************************')
-
 
 with open(JSON_FILE_W, "w") as f:
     s = json.dumps(result, indent=4)
