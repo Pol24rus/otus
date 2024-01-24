@@ -1,0 +1,1262 @@
+{
+    "Fundamentals of Wavelets": [
+        "Fundamentals of Wavelets",
+        "Goswami, Jaideva",
+        "228",
+        "signal_processing"
+    ],
+    "Data Smart": [
+        "Data Smart",
+        "Foreman, John",
+        "235",
+        "data_science"
+    ],
+    "God Created the Integers": [
+        "God Created the Integers",
+        "Hawking, Stephen",
+        "197",
+        "mathematics"
+    ],
+    "Superfreakonomics": [
+        "Superfreakonomics",
+        "Dubner, Stephen",
+        "179",
+        "economics"
+    ],
+    "Orientalism": [
+        "Orientalism",
+        "Said, Edward",
+        "197",
+        "history"
+    ],
+    "Nature of Statistical Learning Theory, The": [
+        "Nature of Statistical Learning Theory, The",
+        "Vapnik, Vladimir",
+        "230",
+        "data_science"
+    ],
+    "Integration of the Indian States": [
+        "Integration of the Indian States",
+        "Menon, V P",
+        "217",
+        "history"
+    ],
+    "Drunkard's Walk, The": [
+        "Drunkard's Walk, The",
+        "Mlodinow, Leonard",
+        "197",
+        "science"
+    ],
+    "Image Processing & Mathematical Morphology": [
+        "Image Processing & Mathematical Morphology",
+        "Shih, Frank",
+        "241",
+        "signal_processing"
+    ],
+    "How to Think Like Sherlock Holmes": [
+        "How to Think Like Sherlock Holmes",
+        "Konnikova, Maria",
+        "240",
+        "psychology"
+    ],
+    "Data Scientists at Work": [
+        "Data Scientists at Work",
+        "Sebastian Gutierrez",
+        "230",
+        "data_science"
+    ],
+    "Slaughterhouse Five": [
+        "Slaughterhouse Five",
+        "Vonnegut, Kurt",
+        "198",
+        "fiction"
+    ],
+    "Birth of a Theorem": [
+        "Birth of a Theorem",
+        "Villani, Cedric",
+        "234",
+        "mathematics"
+    ],
+    "Structure & Interpretation of Computer Programs": [
+        "Structure & Interpretation of Computer Programs",
+        "Sussman, Gerald",
+        "240",
+        "computer_science"
+    ],
+    "Age of Wrath, The": [
+        "Age of Wrath, The",
+        "Eraly, Abraham",
+        "238",
+        "history"
+    ],
+    "Trial, The": [
+        "Trial, The",
+        "Kafka, Frank",
+        "198",
+        "fiction"
+    ],
+    "Statistical Decision Theory'": [
+        "Statistical Decision Theory'",
+        "Pratt, John",
+        "236",
+        "data_science"
+    ],
+    "Data Mining Handbook": [
+        "Data Mining Handbook",
+        "Nisbet, Robert",
+        "242",
+        "data_science"
+    ],
+    "New Machiavelli, The": [
+        "New Machiavelli, The",
+        "Wells, H. G.",
+        "180",
+        "fiction"
+    ],
+    "Physics & Philosophy": [
+        "Physics & Philosophy",
+        "Heisenberg, Werner",
+        "197",
+        "science"
+    ],
+    "Making Software": [
+        "Making Software",
+        "Oram, Andy",
+        "232",
+        "computer_science"
+    ],
+    "Analysis, Vol I": [
+        "Analysis, Vol I",
+        "Tao, Terence",
+        "248",
+        "mathematics"
+    ],
+    "Machine Learning for Hackers": [
+        "Machine Learning for Hackers",
+        "Conway, Drew",
+        "233",
+        "data_science"
+    ],
+    "Signal and the Noise, The": [
+        "Signal and the Noise, The",
+        "Silver, Nate",
+        "233",
+        "data_science"
+    ],
+    "Python for Data Analysis": [
+        "Python for Data Analysis",
+        "McKinney, Wes",
+        "233",
+        "data_science"
+    ],
+    "Introduction to Algorithms": [
+        "Introduction to Algorithms",
+        "Cormen, Thomas",
+        "234",
+        "computer_science"
+    ],
+    "Beautiful and the Damned, The": [
+        "Beautiful and the Damned, The",
+        "Deb, Siddhartha",
+        "198",
+        "nonfiction"
+    ],
+    "Outsider, The": [
+        "Outsider, The",
+        "Camus, Albert",
+        "198",
+        "fiction"
+    ],
+    "Complete Sherlock Holmes, The - Vol I": [
+        "Complete Sherlock Holmes, The - Vol I",
+        "Doyle, Arthur Conan",
+        "176",
+        "fiction"
+    ],
+    "Complete Sherlock Holmes, The - Vol II": [
+        "Complete Sherlock Holmes, The - Vol II",
+        "Doyle, Arthur Conan",
+        "176",
+        "fiction"
+    ],
+    "Wealth of Nations, The": [
+        "Wealth of Nations, The",
+        "Smith, Adam",
+        "175",
+        "economics"
+    ],
+    "Pillars of the Earth, The": [
+        "Pillars of the Earth, The",
+        "Follett, Ken",
+        "176",
+        "fiction"
+    ],
+    "Mein Kampf": [
+        "Mein Kampf",
+        "Hitler, Adolf",
+        "212",
+        "nonfiction"
+    ],
+    "Tao of Physics, The": [
+        "Tao of Physics, The",
+        "Capra, Fritjof",
+        "179",
+        "science"
+    ],
+    "Surely You're Joking Mr Feynman": [
+        "Surely You're Joking Mr Feynman",
+        "Feynman, Richard",
+        "198",
+        "science"
+    ],
+    "Farewell to Arms, A": [
+        "Farewell to Arms, A",
+        "Hemingway, Ernest",
+        "179",
+        "fiction"
+    ],
+    "Veteran, The": [
+        "Veteran, The",
+        "Forsyth, Frederick",
+        "177",
+        "fiction"
+    ],
+    "False Impressions": [
+        "False Impressions",
+        "Archer, Jeffery",
+        "177",
+        "fiction"
+    ],
+    "Last Lecture, The": [
+        "Last Lecture, The",
+        "Pausch, Randy",
+        "197",
+        "nonfiction"
+    ],
+    "Return of the Primitive": [
+        "Return of the Primitive",
+        "Rand, Ayn",
+        "202",
+        "philosophy"
+    ],
+    "Jurassic Park": [
+        "Jurassic Park",
+        "Crichton, Michael",
+        "174",
+        "fiction"
+    ],
+    "Russian Journal, A": [
+        "Russian Journal, A",
+        "Steinbeck, John",
+        "196",
+        "nonfiction"
+    ],
+    "Tales of Mystery and Imagination": [
+        "Tales of Mystery and Imagination",
+        "Poe, Edgar Allen",
+        "172",
+        "fiction"
+    ],
+    "Freakonomics": [
+        "Freakonomics",
+        "Dubner, Stephen",
+        "197",
+        "economics"
+    ],
+    "Hidden Connections, The": [
+        "Hidden Connections, The",
+        "Capra, Fritjof",
+        "197",
+        "science"
+    ],
+    "Story of Philosophy, The": [
+        "Story of Philosophy, The",
+        "Durant, Will",
+        "170",
+        "philosophy"
+    ],
+    "Asami Asami": [
+        "Asami Asami",
+        "Deshpande, P L",
+        "205",
+        "fiction"
+    ],
+    "Journal of a Novel": [
+        "Journal of a Novel",
+        "Steinbeck, John",
+        "196",
+        "fiction"
+    ],
+    "Once There Was a War": [
+        "Once There Was a War",
+        "Steinbeck, John",
+        "196",
+        "nonfiction"
+    ],
+    "Moon is Down, The": [
+        "Moon is Down, The",
+        "Steinbeck, John",
+        "196",
+        "fiction"
+    ],
+    "Brethren, The": [
+        "Brethren, The",
+        "Grisham, John",
+        "174",
+        "fiction"
+    ],
+    "In a Free State": [
+        "In a Free State",
+        "Naipaul, V. S.",
+        "196",
+        "fiction"
+    ],
+    "Catch 22": [
+        "Catch 22",
+        "Heller, Joseph",
+        "178",
+        "fiction"
+    ],
+    "Complete Mastermind, The": [
+        "Complete Mastermind, The",
+        "BBC",
+        "178",
+        "nonfiction"
+    ],
+    "Dylan on Dylan": [
+        "Dylan on Dylan",
+        "Dylan, Bob",
+        "197",
+        "nonfiction"
+    ],
+    "Soft Computing & Intelligent Systems": [
+        "Soft Computing & Intelligent Systems",
+        "Gupta, Madan",
+        "242",
+        "data_science"
+    ],
+    "Textbook of Economic Theory": [
+        "Textbook of Economic Theory",
+        "Stonier, Alfred",
+        "242",
+        "economics"
+    ],
+    "Econometric Analysis": [
+        "Econometric Analysis",
+        "Greene, W. H.",
+        "242",
+        "economics"
+    ],
+    "Learning OpenCV": [
+        "Learning OpenCV",
+        "Bradsky, Gary",
+        "232",
+        "data_science"
+    ],
+    "Data Structures Using C & C++": [
+        "Data Structures Using C & C++",
+        "Tanenbaum, Andrew",
+        "235",
+        "computer_science"
+    ],
+    "Computer Vision, A Modern Approach": [
+        "Computer Vision, A Modern Approach",
+        "Forsyth, David",
+        "255",
+        "data_science"
+    ],
+    "Principles of Communication Systems": [
+        "Principles of Communication Systems",
+        "Taub, Schilling",
+        "240",
+        "computer_science"
+    ],
+    "Let Us C": [
+        "Let Us C",
+        "Kanetkar, Yashwant",
+        "213",
+        "computer_science"
+    ],
+    "Amulet of Samarkand, The": [
+        "Amulet of Samarkand, The",
+        "Stroud, Jonathan",
+        "179",
+        "fiction"
+    ],
+    "Crime and Punishment": [
+        "Crime and Punishment",
+        "Dostoevsky, Fyodor",
+        "180",
+        "fiction"
+    ],
+    "Angels & Demons": [
+        "Angels & Demons",
+        "Brown, Dan",
+        "170",
+        "fiction"
+    ],
+    "Argumentative Indian, The": [
+        "Argumentative Indian, The",
+        "Sen, Amartya",
+        "209",
+        "nonfiction"
+    ],
+    "Sea of Poppies": [
+        "Sea of Poppies",
+        "Ghosh, Amitav",
+        "197",
+        "fiction"
+    ],
+    "Idea of Justice, The": [
+        "Idea of Justice, The",
+        "Sen, Amartya",
+        "212",
+        "nonfiction"
+    ],
+    "Raisin in the Sun, A": [
+        "Raisin in the Sun, A",
+        "Hansberry, Lorraine",
+        "175",
+        "fiction"
+    ],
+    "All the President's Men": [
+        "All the President's Men",
+        "Woodward, Bob",
+        "177",
+        "history"
+    ],
+    "Prisoner of Birth, A": [
+        "Prisoner of Birth, A",
+        "Archer, Jeffery",
+        "176",
+        "fiction"
+    ],
+    "Scoop!": [
+        "Scoop!",
+        "Nayar, Kuldip",
+        "216",
+        "history"
+    ],
+    "Ahe Manohar Tari": [
+        "Ahe Manohar Tari",
+        "Deshpande, Sunita",
+        "213",
+        "nonfiction"
+    ],
+    "Last Mughal, The": [
+        "Last Mughal, The",
+        "Dalrymple, William",
+        "199",
+        "history"
+    ],
+    "Social Choice & Welfare, Vol 39 No. 1": [
+        "Social Choice & Welfare, Vol 39 No. 1",
+        "Various",
+        "235",
+        "economics"
+    ],
+    "Radiowaril Bhashane & Shrutika": [
+        "Radiowaril Bhashane & Shrutika",
+        "Deshpande, P L",
+        "213",
+        "nonfiction"
+    ],
+    "Gun Gayin Awadi": [
+        "Gun Gayin Awadi",
+        "Deshpande, P L",
+        "212",
+        "nonfiction"
+    ],
+    "Aghal Paghal": [
+        "Aghal Paghal",
+        "Deshpande, P L",
+        "212",
+        "nonfiction"
+    ],
+    "Maqta-e-Ghalib": [
+        "Maqta-e-Ghalib",
+        "Garg, Sanjay",
+        "221",
+        "fiction"
+    ],
+    "Beyond Degrees": [
+        "Beyond Degrees",
+        "",
+        "222",
+        "nonfiction"
+    ],
+    "Manasa": [
+        "Manasa",
+        "Kale, V P",
+        "213",
+        "nonfiction"
+    ],
+    "India from Midnight to Milennium": [
+        "India from Midnight to Milennium",
+        "Tharoor, Shashi",
+        "198",
+        "history"
+    ],
+    "World's Greatest Trials, The": [
+        "World's Greatest Trials, The",
+        "",
+        "210",
+        "history"
+    ],
+    "Great Indian Novel, The": [
+        "Great Indian Novel, The",
+        "Tharoor, Shashi",
+        "198",
+        "fiction"
+    ],
+    "O Jerusalem!": [
+        "O Jerusalem!",
+        "Lapierre, Dominique",
+        "217",
+        "history"
+    ],
+    "City of Joy, The": [
+        "City of Joy, The",
+        "Lapierre, Dominique",
+        "177",
+        "fiction"
+    ],
+    "Freedom at Midnight": [
+        "Freedom at Midnight",
+        "Lapierre, Dominique",
+        "167",
+        "history"
+    ],
+    "Winter of Our Discontent, The": [
+        "Winter of Our Discontent, The",
+        "Steinbeck, John",
+        "196",
+        "fiction"
+    ],
+    "On Education": [
+        "On Education",
+        "Russell, Bertrand",
+        "203",
+        "philosophy"
+    ],
+    "Free Will": [
+        "Free Will",
+        "Harris, Sam",
+        "203",
+        "philosophy"
+    ],
+    "Bookless in Baghdad": [
+        "Bookless in Baghdad",
+        "Tharoor, Shashi",
+        "206",
+        "nonfiction"
+    ],
+    "Case of the Lame Canary, The": [
+        "Case of the Lame Canary, The",
+        "Gardner, Earle Stanley",
+        "179",
+        "fiction"
+    ],
+    "Theory of Everything, The": [
+        "Theory of Everything, The",
+        "Hawking, Stephen",
+        "217",
+        "science"
+    ],
+    "New Markets & Other Essays": [
+        "New Markets & Other Essays",
+        "Drucker, Peter",
+        "176",
+        "economics"
+    ],
+    "Electric Universe": [
+        "Electric Universe",
+        "Bodanis, David",
+        "201",
+        "science"
+    ],
+    "Hunchback of Notre Dame, The": [
+        "Hunchback of Notre Dame, The",
+        "Hugo, Victor",
+        "175",
+        "fiction"
+    ],
+    "Burning Bright": [
+        "Burning Bright",
+        "Steinbeck, John",
+        "175",
+        "fiction"
+    ],
+    "Age of Discontuinity, The": [
+        "Age of Discontuinity, The",
+        "Drucker, Peter",
+        "178",
+        "economics"
+    ],
+    "Doctor in the Nude": [
+        "Doctor in the Nude",
+        "Gordon, Richard",
+        "179",
+        "fiction"
+    ],
+    "Down and Out in Paris & London": [
+        "Down and Out in Paris & London",
+        "Orwell, George",
+        "179",
+        "nonfiction"
+    ],
+    "Identity & Violence": [
+        "Identity & Violence",
+        "Sen, Amartya",
+        "219",
+        "philosophy"
+    ],
+    "Beyond the Three Seas": [
+        "Beyond the Three Seas",
+        "Dalrymple, William",
+        "197",
+        "history"
+    ],
+    "World's Greatest Short Stories, The": [
+        "World's Greatest Short Stories, The",
+        "",
+        "217",
+        "fiction"
+    ],
+    "Talking Straight": [
+        "Talking Straight",
+        "Iacoca, Lee",
+        "175",
+        "nonfiction"
+    ],
+    "Maugham's Collected Short Stories, Vol 3": [
+        "Maugham's Collected Short Stories, Vol 3",
+        "Maugham, William S",
+        "171",
+        "fiction"
+    ],
+    "Phantom of Manhattan, The": [
+        "Phantom of Manhattan, The",
+        "Forsyth, Frederick",
+        "180",
+        "fiction"
+    ],
+    "Ashenden of The British Agent": [
+        "Ashenden of The British Agent",
+        "Maugham, William S",
+        "160",
+        "fiction"
+    ],
+    "Zen & The Art of Motorcycle Maintenance": [
+        "Zen & The Art of Motorcycle Maintenance",
+        "Pirsig, Robert",
+        "172",
+        "philosophy"
+    ],
+    "Great War for Civilization, The": [
+        "Great War for Civilization, The",
+        "Fisk, Robert",
+        "197",
+        "history"
+    ],
+    "We the Living": [
+        "We the Living",
+        "Rand, Ayn",
+        "178",
+        "fiction"
+    ],
+    "Artist and the Mathematician, The": [
+        "Artist and the Mathematician, The",
+        "Aczel, Amir",
+        "186",
+        "science"
+    ],
+    "History of Western Philosophy": [
+        "History of Western Philosophy",
+        "Russell, Bertrand",
+        "213",
+        "philosophy"
+    ],
+    "Selected Short Stories": [
+        "Selected Short Stories",
+        "",
+        "215",
+        "fiction"
+    ],
+    "Rationality & Freedom": [
+        "Rationality & Freedom",
+        "Sen, Amartya",
+        "213",
+        "economics"
+    ],
+    "Clash of Civilizations and Remaking of the World Order": [
+        "Clash of Civilizations and Remaking of the World Order",
+        "Huntington, Samuel",
+        "228",
+        "history"
+    ],
+    "Uncommon Wisdom": [
+        "Uncommon Wisdom",
+        "Capra, Fritjof",
+        "197",
+        "nonfiction"
+    ],
+    "One": [
+        "One",
+        "Bach, Richard",
+        "172",
+        "nonfiction"
+    ],
+    "Karl Marx Biography": [
+        "Karl Marx Biography",
+        "",
+        "162",
+        "nonfiction"
+    ],
+    "To Sir With Love": [
+        "To Sir With Love",
+        "Braithwaite",
+        "197",
+        "fiction"
+    ],
+    "Half A Life": [
+        "Half A Life",
+        "Naipaul, V S",
+        "196",
+        "fiction"
+    ],
+    "Discovery of India, The": [
+        "Discovery of India, The",
+        "Nehru, Jawaharlal",
+        "230",
+        "history"
+    ],
+    "Apulki": [
+        "Apulki",
+        "Deshpande, P L",
+        "211",
+        "nonfiction"
+    ],
+    "Unpopular Essays": [
+        "Unpopular Essays",
+        "Russell, Bertrand",
+        "198",
+        "philosophy"
+    ],
+    "Deceiver, The": [
+        "Deceiver, The",
+        "Forsyth, Frederick",
+        "178",
+        "fiction"
+    ],
+    "Veil: Secret Wars of the CIA": [
+        "Veil: Secret Wars of the CIA",
+        "Woodward, Bob",
+        "171",
+        "history"
+    ],
+    "Char Shabda": [
+        "Char Shabda",
+        "Deshpande, P L",
+        "214",
+        "nonfiction"
+    ],
+    "Rosy is My Relative": [
+        "Rosy is My Relative",
+        "Durrell, Gerald",
+        "176",
+        "fiction"
+    ],
+    "Moon and Sixpence, The": [
+        "Moon and Sixpence, The",
+        "Maugham, William S",
+        "180",
+        "fiction"
+    ],
+    "Political Philosophers": [
+        "Political Philosophers",
+        "",
+        "162",
+        "philosophy"
+    ],
+    "Short History of the World, A": [
+        "Short History of the World, A",
+        "Wells, H G",
+        "197",
+        "history"
+    ],
+    "Trembling of a Leaf, The": [
+        "Trembling of a Leaf, The",
+        "Maugham, William S",
+        "205",
+        "fiction"
+    ],
+    "Doctor on the Brain": [
+        "Doctor on the Brain",
+        "Gordon, Richard",
+        "204",
+        "fiction"
+    ],
+    "Simpsons & Their Mathematical Secrets": [
+        "Simpsons & Their Mathematical Secrets",
+        "Singh, Simon",
+        "233",
+        "science"
+    ],
+    "Pattern Classification": [
+        "Pattern Classification",
+        "Duda, Hart",
+        "241",
+        "data_science"
+    ],
+    "From Beirut to Jerusalem": [
+        "From Beirut to Jerusalem",
+        "Friedman, Thomas",
+        "202",
+        "history"
+    ],
+    "Code Book, The": [
+        "Code Book, The",
+        "Singh, Simon",
+        "197",
+        "science"
+    ],
+    "Age of the Warrior, The": [
+        "Age of the Warrior, The",
+        "Fisk, Robert",
+        "197",
+        "history"
+    ],
+    "Final Crisis": [
+        "Final Crisis",
+        "",
+        "257",
+        "comic"
+    ],
+    "Killing Joke, The": [
+        "Killing Joke, The",
+        "",
+        "283",
+        "comic"
+    ],
+    "Flashpoint": [
+        "Flashpoint",
+        "",
+        "265",
+        "comic"
+    ],
+    "Batman Earth One": [
+        "Batman Earth One",
+        "",
+        "265",
+        "comic"
+    ],
+    "Crisis on Infinite Earths": [
+        "Crisis on Infinite Earths",
+        "",
+        "258",
+        "comic"
+    ],
+    "Numbers Behind Numb3rs, The": [
+        "Numbers Behind Numb3rs, The",
+        "Devlin, Keith",
+        "202",
+        "science"
+    ],
+    "Superman Earth One - 1": [
+        "Superman Earth One - 1",
+        "",
+        "259",
+        "comic"
+    ],
+    "Superman Earth One - 2": [
+        "Superman Earth One - 2",
+        "",
+        "258",
+        "comic"
+    ],
+    "Justice League: Throne of Atlantis": [
+        "Justice League: Throne of Atlantis",
+        "",
+        "258",
+        "comic"
+    ],
+    "Justice League: The Villain's Journey": [
+        "Justice League: The Villain's Journey",
+        "",
+        "258",
+        "comic"
+    ],
+    "Death of Superman, The": [
+        "Death of Superman, The",
+        "",
+        "258",
+        "comic"
+    ],
+    "History of the DC Universe": [
+        "History of the DC Universe",
+        "",
+        "258",
+        "comic"
+    ],
+    "Batman: The Long Halloween": [
+        "Batman: The Long Halloween",
+        "",
+        "258",
+        "comic"
+    ],
+    "Life in Letters, A": [
+        "Life in Letters, A",
+        "Steinbeck, John",
+        "196",
+        "nonfiction"
+    ],
+    "Information, The": [
+        "Information, The",
+        "Gleick, James",
+        "233",
+        "science"
+    ],
+    "Journal of Economics, vol 106 No 3": [
+        "Journal of Economics, vol 106 No 3",
+        "",
+        "235",
+        "economics"
+    ],
+    "Elements of Information Theory": [
+        "Elements of Information Theory",
+        "Thomas, Joy",
+        "229",
+        "data_science"
+    ],
+    "Power Electronics - Rashid": [
+        "Power Electronics - Rashid",
+        "Rashid, Muhammad",
+        "235",
+        "computer_science"
+    ],
+    "Power Electronics - Mohan": [
+        "Power Electronics - Mohan",
+        "Mohan, Ned",
+        "237",
+        "computer_science"
+    ],
+    "Neural Networks": [
+        "Neural Networks",
+        "Haykin, Simon",
+        "240",
+        "data_science"
+    ],
+    "Grapes of Wrath, The": [
+        "Grapes of Wrath, The",
+        "Steinbeck, John",
+        "196",
+        "fiction"
+    ],
+    "Vyakti ani Valli": [
+        "Vyakti ani Valli",
+        "Deshpande, P L",
+        "211",
+        "nonfiction"
+    ],
+    "Statistical Learning Theory": [
+        "Statistical Learning Theory",
+        "Vapnik, Vladimir",
+        "228",
+        "data_science"
+    ],
+    "Empire of the Mughal - The Tainted Throne": [
+        "Empire of the Mughal - The Tainted Throne",
+        "Rutherford, Alex",
+        "180",
+        "history"
+    ],
+    "Empire of the Mughal - Brothers at War": [
+        "Empire of the Mughal - Brothers at War",
+        "Rutherford, Alex",
+        "180",
+        "history"
+    ],
+    "Empire of the Mughal - Ruler of the World": [
+        "Empire of the Mughal - Ruler of the World",
+        "Rutherford, Alex",
+        "180",
+        "history"
+    ],
+    "Empire of the Mughal - The Serpent's Tooth": [
+        "Empire of the Mughal - The Serpent's Tooth",
+        "Rutherford, Alex",
+        "180",
+        "history"
+    ],
+    "Empire of the Mughal - Raiders from the North": [
+        "Empire of the Mughal - Raiders from the North",
+        "Rutherford, Alex",
+        "180",
+        "history"
+    ],
+    "Mossad": [
+        "Mossad",
+        "Baz-Zohar, Michael",
+        "236",
+        "history"
+    ],
+    "Jim Corbett Omnibus": [
+        "Jim Corbett Omnibus",
+        "Corbett, Jim",
+        "223",
+        "nonfiction"
+    ],
+    "20000 Leagues Under the Sea": [
+        "20000 Leagues Under the Sea",
+        "Verne, Jules",
+        "190",
+        "fiction"
+    ],
+    "Batatyachi Chal": [
+        "Batatyachi Chal",
+        "Deshpande P L",
+        "200",
+        "fiction"
+    ],
+    "Hafasavnuk": [
+        "Hafasavnuk",
+        "Deshpande P L",
+        "211",
+        "fiction"
+    ],
+    "Urlasurla": [
+        "Urlasurla",
+        "Deshpande P L",
+        "211",
+        "fiction"
+    ],
+    "Pointers in C": [
+        "Pointers in C",
+        "Kanetkar, Yashwant",
+        "213",
+        "computer_science"
+    ],
+    "Cathedral and the Bazaar, The": [
+        "Cathedral and the Bazaar, The",
+        "Raymond, Eric",
+        "217",
+        "computer_science"
+    ],
+    "Design with OpAmps": [
+        "Design with OpAmps",
+        "Franco, Sergio",
+        "240",
+        "computer_science"
+    ],
+    "Think Complexity": [
+        "Think Complexity",
+        "Downey, Allen",
+        "230",
+        "data_science"
+    ],
+    "Devil's Advocate, The": [
+        "Devil's Advocate, The",
+        "West, Morris",
+        "178",
+        "fiction"
+    ],
+    "Ayn Rand Answers": [
+        "Ayn Rand Answers",
+        "Rand, Ayn",
+        "203",
+        "philosophy"
+    ],
+    "Philosophy: Who Needs It": [
+        "Philosophy: Who Needs It",
+        "Rand, Ayn",
+        "171",
+        "philosophy"
+    ],
+    "World's Great Thinkers, The": [
+        "World's Great Thinkers, The",
+        "",
+        "189",
+        "philosophy"
+    ],
+    "Data Analysis with Open Source Tools": [
+        "Data Analysis with Open Source Tools",
+        "Janert, Phillip",
+        "230",
+        "data_science"
+    ],
+    "Broca's Brain": [
+        "Broca's Brain",
+        "Sagan, Carl",
+        "174",
+        "science"
+    ],
+    "Men of Mathematics": [
+        "Men of Mathematics",
+        "Bell, E T",
+        "217",
+        "mathematics"
+    ],
+    "Oxford book of Modern Science Writing": [
+        "Oxford book of Modern Science Writing",
+        "Dawkins, Richard",
+        "240",
+        "science"
+    ],
+    "Justice, Judiciary and Democracy": [
+        "Justice, Judiciary and Democracy",
+        "Ranjan, Sudhanshu",
+        "224",
+        "philosophy"
+    ],
+    "Arthashastra, The": [
+        "Arthashastra, The",
+        "Kautiyla",
+        "214",
+        "philosophy"
+    ],
+    "We the People": [
+        "We the People",
+        "Palkhivala",
+        "216",
+        "philosophy"
+    ],
+    "We the Nation": [
+        "We the Nation",
+        "Palkhivala",
+        "216",
+        "philosophy"
+    ],
+    "Courtroom Genius, The": [
+        "Courtroom Genius, The",
+        "Sorabjee",
+        "217",
+        "nonfiction"
+    ],
+    "Dongri to Dubai": [
+        "Dongri to Dubai",
+        "Zaidi, Hussain",
+        "216",
+        "nonfiction"
+    ],
+    "History of England, Foundation": [
+        "History of England, Foundation",
+        "Ackroyd, Peter",
+        "197",
+        "history"
+    ],
+    "City of Djinns": [
+        "City of Djinns",
+        "Dalrymple, William",
+        "198",
+        "history"
+    ],
+    "India's Legal System": [
+        "India's Legal System",
+        "Nariman",
+        "177",
+        "nonfiction"
+    ],
+    "More Tears to Cry": [
+        "More Tears to Cry",
+        "Sassoon, Jean",
+        "235",
+        "fiction"
+    ],
+    "Ropemaker, The": [
+        "Ropemaker, The",
+        "Dickinson, Peter",
+        "196",
+        "fiction"
+    ],
+    "Judge, The": [
+        "Judge, The",
+        "",
+        "170",
+        "fiction"
+    ],
+    "Attorney, The": [
+        "Attorney, The",
+        "",
+        "170",
+        "fiction"
+    ],
+    "Prince, The": [
+        "Prince, The",
+        "Machiavelli",
+        "173",
+        "philosophy"
+    ],
+    "Eyeless in Gaza": [
+        "Eyeless in Gaza",
+        "Huxley, Aldous",
+        "180",
+        "fiction"
+    ],
+    "Tales of Beedle the Bard": [
+        "Tales of Beedle the Bard",
+        "Rowling, J K",
+        "184",
+        "fiction"
+    ],
+    "Girl with the Dragon Tattoo": [
+        "Girl with the Dragon Tattoo",
+        "Larsson, Steig",
+        "179",
+        "fiction"
+    ],
+    "Girl who kicked the Hornet's Nest": [
+        "Girl who kicked the Hornet's Nest",
+        "Larsson, Steig",
+        "179",
+        "fiction"
+    ],
+    "Girl who played with Fire": [
+        "Girl who played with Fire",
+        "Larsson, Steig",
+        "179",
+        "fiction"
+    ],
+    "Batman Handbook": [
+        "Batman Handbook",
+        "",
+        "270",
+        "comic"
+    ],
+    "Murphy's Law": [
+        "Murphy's Law",
+        "",
+        "178",
+        "nonfiction"
+    ],
+    "Structure and Randomness": [
+        "Structure and Randomness",
+        "Tao, Terence",
+        "252",
+        "mathematics"
+    ],
+    "Image Processing with MATLAB": [
+        "Image Processing with MATLAB",
+        "Eddins, Steve",
+        "241",
+        "signal_processing"
+    ],
+    "Animal Farm": [
+        "Animal Farm",
+        "Orwell, George",
+        "180",
+        "fiction"
+    ],
+    "Idiot, The": [
+        "Idiot, The",
+        "Dostoevsky, Fyodor",
+        "197",
+        "fiction"
+    ],
+    "Christmas Carol, A": [
+        "Christmas Carol, A",
+        "Dickens, Charles",
+        "196",
+        "fiction"
+    ]
+}
