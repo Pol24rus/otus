@@ -35,26 +35,29 @@ with open(CSV_FILE, newline='') as f2:
 #     result_2 += 1
 class Iteration:
 
-def __init__(self, result_2):
-    self.result_2 = result_2
+    def __init__(self, result_2):
+        self.result_2 = result_2
 
 
+    def __iter__(self):
+        self.result_1 = 0
+        return self
 
-def __iter__(self):
-    self.result_1 = 0
-    return self
 
+    def __next__(self):
+        if self.result_1 > len(self.result_2):
+            raise StopIteration
+        else:
+            result_3 = self.result_1
+            self.result_1 += 1
+            return result_3
 
-def __next__(self):
-    if self.result_1 > len(self.result_2):
-        raise StopIteration
-    else:
-        result_3 = self.result_1
-        self.result_1 += 1
-        return result_3
+print('resultat')
+for i in Iteration(array_dict):
+    print(i)
 
-user_num = Iteration(result_3)
-my_iter = iter(user_num)
+# user_num = Iteration(result_3)
+# my_iter = iter(user_num)
 
 # with open(JSON_FILE_W, "w") as f:
 #     s = json.dumps(result, indent=4)
