@@ -4,14 +4,12 @@ import csv
 from files_hw import JSON_FILE, JSON_FILE_W2, CSV_FILE
 
 result = []
-
 with open(JSON_FILE, "r") as f:
     users = json.load(f)
-    user_number = 0
     for i in users:
         result.append({"name": i['name'], "gender": i['gender'], "address": i['address'],
                        "age": i['age'], "Book": []})
-        user_number += 1
+        len(result)
 
 with open(CSV_FILE, newline='') as f2:
     reader = csv.reader(f2)
@@ -26,13 +24,26 @@ with open(CSV_FILE, newline='') as f2:
         #        print('csv_dict ',csv_dict)
         array_dict.append(csv_dict)  # словарь книг
 
-for users in result:
-    print(users)
+user_count = len(result)  # кол-во пользователей
+print("user_count", user_count)
+book = len(array_dict)  # кол-во книг
+print("book_count", book)
+book_users = book // user_count  # кол-во книг на 1 пользователя
+print("book_users", book_users)
+print("result", result[0])
+print(result[1])
 
-for book in array_dict:
-    print(array_dict[:4])
-    current_user_index =  # тут нужно придумать формулу - мб закинуть в строку 30
-    result[current_user_index]['Book'].append(book)
+all_book = []
+result = [0]
+counter = 0
+for users in result:
+    for book in array_dict[:4]:
+
+        current_user_index = result
+        print("current_user_index", current_user_index)
+        current_user_index += 1
+        # result[current_user_index]['Book'].append(book)
+        print("result", result)
 
 
 with open(JSON_FILE_W2, "w") as f:
