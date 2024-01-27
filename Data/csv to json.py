@@ -1,6 +1,6 @@
 import csv
 import json
-from files_hw import JSON_FILE, JSON_FILE_W, CSV_FILE
+from files_hw import JSON_FILE, CSV_FILE_W, CSV_FILE
 json_file_path = 'output.json'  # Replace with the desired output JSON file path
 
 with open(CSV_FILE, newline='') as f2:
@@ -17,6 +17,6 @@ with open(CSV_FILE, newline='') as f2:
         array_dict.append(csv_dict)  # словарь книг
 
 
-with open(JSON_FILE_W, "w") as f3:
+with open(CSV_FILE_W, "w") as f3:
     s = json.dumps(array_dict, indent=4)
     f3.write(s)

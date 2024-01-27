@@ -1,5 +1,6 @@
 import json
 import csv
+from csv import DictReader
 
 from files_hw import JSON_FILE, JSON_FILE_W2, CSV_FILE
 
@@ -12,38 +13,45 @@ with open(JSON_FILE, "r") as f:
         len(result)
 
 with open(CSV_FILE, newline='') as f2:
-    reader = csv.reader(f2)
+    reader = DictReader(f2)
     array_dict = []
-    # Извлекаем заголовок
-    header = next(reader)[:4]
-    header[2], header[3] = header[3], header[2]
     # Итерируемся по данным делая из них словари
     for row in reader:
-        row[2], row[3] = row[3], row[2]
-        csv_dict = dict(zip(header, row))  # делает словарь с ключом
-        #        print('csv_dict ',csv_dict)
-        array_dict.append(csv_dict)  # словарь книг
+        array_dict.append(row)  # словарь книг
+    print(array_dict)
 
 user_count = len(result)  # кол-во пользователей
 print("user_count", user_count)
-book = len(array_dict)  # кол-во книг
-print("book_count", book)
-book_users = book // user_count  # кол-во книг на 1 пользователя
+book_count = len(array_dict)  # кол-во книг
+print("book_count", book_count)
+book_users = book_count // user_count  # кол-во книг на 1 пользователя
 print("book_users", book_users)
-print("result", result[0])
-print(result[1])
+remaining_books = book_count % user_count  # оставшиеся книги
+print("remaining_book", remaining_books)
+# print(result[0])
+# print(result[1])
+# print(result[2])
+# print(result[3])
+print("index", 30 % user_count)
 
-all_book = []
-result = [0]
 counter = 0
 for users in result:
-    for book in array_dict[:4]:
+    print("=users=", users)
+for book in array_dict:
+    current_user_index = counter % user_count
+    result[current_user_index]['Book'].append(book)
+    print("all_book", result)
+    # if counter >= 28:
+    #     break
+    # else:
+    counter += 1
 
-        current_user_index = result
-        print("current_user_index", current_user_index)
-        current_user_index += 1
-        # result[current_user_index]['Book'].append(book)
-        print("result", result)
+# for book in array_dict:
+# current_user_index = тут нужно придумать формулу
+# result[current_user_index]['Book'].append(book)
+
+#         # print("result", result)
+#         len(result)
 
 
 with open(JSON_FILE_W2, "w") as f:
