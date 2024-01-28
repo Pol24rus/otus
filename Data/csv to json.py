@@ -34,6 +34,5 @@ for book in array_dict:
     counter += 1
 
 with open(JSON_FILE_W, "w") as f:
-    s = json.dumps(result, indent=4)  # записываю в файл
+    s = json.dumps(result, indent=4)  # записываю
     f.write(s)
-
