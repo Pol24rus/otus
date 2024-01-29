@@ -9,8 +9,8 @@ with open(JSON_FILE, "r") as f:
     users = json.load(f)
     for i in users:
         result.append({"name": i['name'], "gender": i['gender'], "address": i['address'],
-                       "age": i['age'], "Book": []})
-        len(result)
+                       "age": i['age'], "book": []})
+#        len(result)
 
 # преобразую csv не с помощью DictReader чтобы сразу убрать
 # Издательство и не писать потом больше строк прописывая заголовки
@@ -23,6 +23,7 @@ with open(CSV_FILE, newline='') as f2:
     for row in reader:
         csv_dict = dict(zip(header, row))  # делает словарь с ключом
         array_dict.append(csv_dict)  # словарь книг
+        print("array_dict", array_dict)
 
 user_count = len(result)  # кол-во пользователей
 
@@ -30,10 +31,10 @@ user_count = len(result)  # кол-во пользователей
 counter = 0
 for book in array_dict:
     current_user_index = counter % user_count  # вычисляю индекс текущего пользователя
-    result[current_user_index]['Book'].append(book)  # добавляю книги пользователям
+    result[current_user_index]['book'].append(book)  # добавляю книги пользователям
     counter += 1
 
-with open(JSON_FILE_W, "w") as f:
+with open('result.json', "w") as f:
     s = json.dumps(result, indent=4)  # записываю в файл результаты
     f.write(s)
 
