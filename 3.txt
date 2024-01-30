@@ -1,4 +1,4 @@
-test file
+git clonetest file
 git init - создание локального репозитория.
 git status
 git add . - добавление всех файлов, потом сделать комит с именем
