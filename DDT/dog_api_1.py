@@ -1,11 +1,11 @@
-import pytest
 import os
 
-from my_store_api_user import MyStoreApiUser
+import pytest
+
 from gener_params import (
-    gen_users, get_list_of_users, get_list_of_users_from_csv_file,
-    get_param_list_error_users
+    gen_users
 )
+from my_store_api_user import MyStoreApiUser
 
 # входные файлы для работы с тестами
 USERS_FILE_NAME = os.getenv('USERS_FILE_NAME', 'users.csv')

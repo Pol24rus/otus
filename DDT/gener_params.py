@@ -1,7 +1,7 @@
 import random
 import string
 
-from .files_utils import read_lines_csv_file
+from files_utils import read_lines_csv_file
 
 
 def gen_users(user_count=5):

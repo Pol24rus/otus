@@ -1,7 +1,7 @@
 import requests
 import pprint
 
-BASE_URL_DOGSTORE = 'https://dog.ceo/dog-api/'
+BASE_URL_DOGSTORE = 'https://petstore.swagger.io/v2'
 
 
 class BaseRequest:
