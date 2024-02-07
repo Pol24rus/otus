@@ -2,7 +2,7 @@ import requests
 import pprint
 
 
-BASE_URL_DOGSTORE = 'https://dog.ceo/dog-api/documentation/'
+BASE_URL_DOGSTORE = 'https://images.dog.ceo/breeds'
 
 
 class BaseRequest:
@@ -37,7 +37,7 @@ class BaseRequest:
         pprint.pprint(response.url)
         pprint.pprint(response.status_code)
         pprint.pprint(response.reason)
-        pprint.pprint(response.text)
+        #pprint.pprint(response.text)
         pprint.pprint(response.json())
         pprint.pprint('**********')
         return response
@@ -67,16 +67,16 @@ class BaseRequest:
 if __name__ == '__main__':
     base_request = BaseRequest(BASE_URL_DOGSTORE)
 
-    pet_info = base_request.get('pet', 1)
+    pet_info = base_request.get('hound-afghan', 'n02088094_1003.jpg')
     pprint.pprint(pet_info)
     pass
 
-    data = {'name': 'Barsic'}
-    pet_id = base_request.post('pet', 1, data)
-    pet_info = base_request.get('pet', pet_id)
-    assert data['name'] == pet_info['name']
+    data = {'message': 'hound'}
+    pet_id = base_request.post('hound-afghan', 'n02088094_1007.jpg', data)
+    pet_info = base_request.get('hound-afghan', pet_id)
+    assert data['message'] == pet_info['message']
     pass
 
-    request_id = base_request.delete('pet', 1)
-    pet_info = base_request.get('pet', request_id, expected_error=True)
+    request_id = base_request.delete('hound-afghan', 'n02088094_1007.jpg')
+    pet_info = base_request.get('hound-afghan', request_id, expected_error=True)
     pprint.pprint(pet_info)
