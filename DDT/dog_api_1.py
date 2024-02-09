@@ -2,9 +2,7 @@ import os
 
 import pytest
 
-from gener_params import (
-    gen_users
-)
+from gener_params import (gen_users)
 from my_store_api_user import MyStoreApiUser
 
 # входные файлы для работы с тестами

@@ -2,7 +2,7 @@ import requests
 import pprint
 
 
-BASE_URL_DOGSTORE = 'https://images.dog.ceo/breeds'
+BASE_URL_DOGSTORE = 'https://dog.ceo/api/breeds'
 
 
 class BaseRequest:
@@ -19,13 +19,13 @@ class BaseRequest:
         while not stop_flag:
             if request_type == 'GET':
                 response = requests.get(url)
-            elif request_type == 'POST':
-                if is_json:
-                    response = requests.post(url, json=payload)
-                else:
-                    response = requests.post(url, data=payload)
-            else:
-                response = requests.delete(url)
+            # elif request_type == 'POST':
+            #     if is_json:
+            #         response = requests.post(url, json=payload)
+            #     else:
+            #         response = requests.post(url, data=payload)
+            # else:
+            #     response = requests.delete(url)
 
             if not expected_error and response.status_code == 200:
                 stop_flag = True
@@ -37,46 +37,55 @@ class BaseRequest:
         pprint.pprint(response.url)
         pprint.pprint(response.status_code)
         pprint.pprint(response.reason)
-        #pprint.pprint(response.text)
+        pprint.pprint(response.text)
         pprint.pprint(response.json())
         pprint.pprint('**********')
         return response
 
-    def get(self, endpoint, endpoint_id, expected_error=False):
-        url = f'{self.base_url}/{endpoint}/{endpoint_id}'
-        response = self._request(url, 'GET', expected_error=expected_error)
-        return response.json()
+    # def get(self, endpoint, endpoint_id, expected_error=False):
+    #     url = f'{self.base_url}/{endpoint}/{endpoint_id}'
+    #     response_2 = self._request(url, 'GET', expected_error=expected_error)
+    #     pprint.pprint(response_2.url)
+    #     pprint.pprint(response_2.status_code)
+    #     pprint.pprint(response_2.reason)
+    #     pprint.pprint(response_2.text)
+    #     pprint.pprint(response_2.json())
+    #     pprint.pprint('********** //////////////////////')
+    #
+    #     return response_2.json()
 
-    def post(
-            self, endpoint, endpoint_id, body, is_json=False,
-            expected_error=False
-    ):
-        url = f'{self.base_url}/{endpoint}/{endpoint_id}'
-        response = self._request(
-            url, 'POST', payload=body, is_json=is_json,
-            expected_error=expected_error
-        )
-        return response.json()['message']
 
-    def delete(self, endpoint, endpoint_id):
-        url = f'{self.base_url}/{endpoint}/{endpoint_id}'
-        response = self._request(url, 'DELETE')
-        return response.json()['message']
+    # def post(
+    #         self, endpoint, endpoint_id, body, is_json=False,
+    #         expected_error=False
+    # ):
+    #     url = f'{self.base_url}/{endpoint}/{endpoint_id}'
+    #     response = self._request(
+    #         url, 'POST', payload=body, is_json=is_json,
+    #         expected_error=expected_error
+    #     )
+    #     return response.json()['message']
+    #
+    # def delete(self, endpoint, endpoint_id):
+    #     url = f'{self.base_url}/{endpoint}/{endpoint_id}'
+    #     response = self._request(url, 'DELETE')
+    #     return response.json()['message']
 
 
 if __name__ == '__main__':
     base_request = BaseRequest(BASE_URL_DOGSTORE)
 
-    pet_info = base_request.get('hound-afghan', 'n02088094_1003.jpg')
+    pet_info = base_request.get('image', 'random')
     pprint.pprint(pet_info)
+    pprint.pprint(pet_info.status_code)
     pass
 
-    data = {'message': 'hound'}
-    pet_id = base_request.post('hound-afghan', 'n02088094_1007.jpg', data)
-    pet_info = base_request.get('hound-afghan', pet_id)
+    data = {'message': ''}
+#    pet_id = base_request.post('image', 'random', data)
+    pet_info = base_request.get('image', data)
     assert data['message'] == pet_info['message']
     pass
 
-    request_id = base_request.delete('hound-afghan', 'n02088094_1007.jpg')
-    pet_info = base_request.get('hound-afghan', request_id, expected_error=True)
-    pprint.pprint(pet_info)
+    # request_id = base_request.delete('hound-afghan', 'n02088094_1007.jpg')
+    # pet_info = base_request.get('hound-afghan', request_id, expected_error=True)
+    # pprint.pprint(pet_info)

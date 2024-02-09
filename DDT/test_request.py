@@ -2,7 +2,7 @@ import pprint
 import requests
 import json
 
-BASE_URL_DOGSTORE = 'https://dog.ceo/api/breed/hound/images'
+BASE_URL_DOGSTORE = 'https://dog.ceo/api/breeds/images/random'
 
 response = requests.get(f'{BASE_URL_DOGSTORE}')
 pprint.pprint('GET Example')
