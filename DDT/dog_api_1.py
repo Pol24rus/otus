@@ -1,36 +1,22 @@
 import os
-
 import pytest
+from test_request import BaseRequest, BASE_URL_DOGSTORE, BASE_URL_BREWERIES, BASE_URL_JSONPLACEHOLD
 
-from gener_params import (gen_users)
-from my_store_api_user import MyStoreApiUser
 
-# входные файлы для работы с тестами
-USERS_FILE_NAME = os.getenv('USERS_FILE_NAME', 'users.csv')
-USERS_ERROR_FILE_NAME = os.getenv('USERS_ERROR_FILE_NAME', 'users_error.csv')
+@pytest.fixture(scope='function') # получаю урл
+def url_dogstore(dog_url):
+    assert dog_url == "--expected: 'https://dog.ceo/api/breeds/image/random'"
+    return BaseRequest(BASE_URL_DOGSTORE)
+
+# какая ф-ция верная, dog_url или url_breweries в плане использования assert?
+@pytest.fixture(scope='function') # получаю статус кода
+def url_breweries(breweries_status):
+    assert breweries_status == 200
+    return BaseRequest(BASE_URL_BREWERIES)
 
 
 @pytest.fixture(scope='function')
-def my_store_api_user():
-    return MyStoreApiUser()
+def url_jsonplacehold(jsonplacehold_url):
+    return BaseRequest(BASE_URL_JSONPLACEHOLD)
 
 
-#   генерация 2-х пользователей
-@pytest.mark.parametrize('data', gen_users(2))
-def test_create_user(my_store_api_user, data):  # принимаются данные
-    user_id = my_store_api_user.create_user(**data)  # распаковываются данные, создаем пользователя
-    assert user_id  # получаем ID пользователя
-
-    # формируем ожидаемое тело
-    expected_body = {
-        **data,
-        'id': user_id,
-    }
-    # проверяем по имени пользователя
-    user_info = my_store_api_user.get('user', data['username'])
-    # проверяем соответствие полученной инфы к ожидаемой
-    for key, value in expected_body.items():
-        assert user_info[key] == value, (
-            f'[{key}] Actual value: {user_info[key]}, expected: {value}'
-        )
-# пользователей получаем из генератора den_params
